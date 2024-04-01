@@ -1,0 +1,461 @@
+@media screen and (min-width: 768px) {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    body {
+        background-image: url("../image/fundo.jpg");
+    }
+
+    .copy-cel {
+        display: none;
+    }
+
+    .cel {
+        display: none;
+    }
+
+    .zz {
+        display: none;
+    }
+
+    #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../image/fundo.jpg");
+    }
+
+    .car {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 30%;
+    }
+
+    .car img {
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    section {
+        height: 120px;
+    }
+
+    .principal {
+        z-index: 1;
+        display: flex;
+        top: 8%;
+        justify-content: space-around;
+        width: 100%;
+        position: fixed;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .principal .home {
+        padding-bottom: 2px;
+        transition: 1s;
+        position: absolute;
+        bottom: 40px;
+        font-size: 15px;
+        letter-spacing: 5px;
+        color: black;
+    }
+
+    .home h2 {
+        padding-bottom: 2px;
+    }
+
+    .principal .menus {
+        padding-bottom: 5px;
+        color: black;
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+
+    .link0 {
+        position: fixed;
+        right: 23px;
+        bottom: 19%;
+        height: 25px;
+        width: 30px;
+        z-index: 1;
+        transition: 1s
+    }
+
+    .link0 img {
+        width: 100%;
+        height: 100%;
+        color: #000;
+        transition: 1s;
+        border-radius: 5px
+    }
+
+    .link0.visible {
+        visibility: visible
+    }
+
+    .link1 {
+        position: fixed;
+        right: 23px;
+        bottom: 11%;
+        height: 30px;
+        width: 30px;
+        z-index: 1
+    }
+
+    .link1 img {
+        width: 100%;
+        height: 100%;
+        color: #000;
+        transition: 1s;
+        border-radius: 9px
+    }
+
+    .link2 {
+        position: fixed;
+        right: 23px;
+        bottom: 3%;
+        height: 30px;
+        width: 30px;
+        z-index: 1
+    }
+
+    .link2 img {
+        width: 100%;
+        height: 100%;
+        color: #000;
+        transition: 1s;
+        border-radius: 14px
+    }
+
+    .titulo1 {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        padding-top: 100px;
+        color: black;
+    }
+
+    .titulo1 h2 {
+        letter-spacing: 3px;
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .titulo1 p {
+        letter-spacing: 2px;
+        font-size: 16px;
+        width: 100%;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
+    .titulo2 {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        padding-top: 160px;
+        color: black;
+    }
+
+    .titulo2 h2 {
+        letter-spacing: 3px;
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .titulo2 p {
+        letter-spacing: 2px;
+        font-size: 16px;
+        width: 100%;
+        margin-top: 5px;
+        font-weight: bold;
+    }
+
+    .mains1 {
+        margin-right: 35px;
+    }
+
+    .container-fotos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        height: 100%;
+    }
+
+    .item {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 500px;
+    }
+
+    .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .copy {
+        text-align: center;
+        background-color: white;
+        padding: 3px;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 2px;
+        color: black;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .copy a {
+        color: black;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html {
+        scroll-behavior: smooth
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none
+    }
+
+    body {
+        background-image: url("../image/fundo.jpg");
+    }
+
+    .copy {
+        display: none;
+    }
+
+    .teste {
+        display: none;
+    }
+
+    .xx {
+        display: none;
+    }
+
+    #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../image/fundo.jpg");
+    }
+
+    .car {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 25%
+    }
+
+    .car img {
+        height: 30px;
+        border-radius: 50%
+    }
+
+    .titulo .home {
+        letter-spacing: 1px;
+        z-index: 1;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        top: 2%;
+        color: black;
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .home h2 {
+        padding-bottom: 3px;
+    }
+
+    .principal {
+        letter-spacing: 1px;
+        text-align: center;
+        z-index: 1;
+        display: flex;
+        top: 10%;
+        justify-content: space-around;
+        width: 100%;
+        position: fixed;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .principal .menus {
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .principal2 {
+        letter-spacing: 1px;
+        z-index: 1;
+        display: flex;
+        text-align: center;
+        top: 16%;
+        justify-content: space-around;
+        width: 100%;
+        position: fixed;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .principal2 .menus2 {
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .titulo1 {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        padding-top: 18px;
+        color: black;
+    }
+
+    .titulo1 h2 {
+        letter-spacing: 3px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .titulo1 p {
+        letter-spacing: 2px;
+        font-size: 13px;
+        width: 100%;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
+    .titulo2 {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+    }
+
+    .titulo2 h2 {
+        letter-spacing: 3px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .titulo2 p {
+        letter-spacing: 2px;
+        font-size: 13px;
+        width: 100%;
+        margin-top: 5px;
+        font-weight: bold;
+    }
+
+    .container-fotos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 120px;
+        height: 100%;
+        padding-right: 10px;
+    }
+
+    .item {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+        width: 100%;
+        height: 400px;
+    }
+
+    .link0 {
+        position: fixed;
+        right: 10px;
+        bottom: 19%;
+        height: 25px;
+        width: 30px;
+        z-index: 1
+    }
+
+    .link0 img {
+        width: 100%;
+        height: 100%;
+        color: #000;
+        border-radius: 5px
+    }
+
+    .link0.visible {
+        visibility: visible
+    }
+
+    .link1 {
+        position: fixed;
+        right: 10px;
+        bottom: 11%;
+        height: 30px;
+        width: 30px;
+        z-index: 1
+    }
+
+    .link1 img {
+        width: 100%;
+        height: 100%;
+        color: #000
+    }
+
+    .link2 {
+        position: fixed;
+        right: 10px;
+        bottom: 3%;
+        height: 30px;
+        width: 30px;
+        z-index: 1
+    }
+
+    .link2 img {
+        width: 100%;
+        height: 100%;
+        color: #000
+    }
+
+    .copy-cel {
+        text-align: center;
+        background-color: white;
+        padding: 3px;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 2px;
+        color: black;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .copy-cel a {
+        color: black;
+    }
+}

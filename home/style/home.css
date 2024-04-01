@@ -1,0 +1,187 @@
+@media screen and (min-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        box-shadow: none
+    }
+
+    section {
+        display: none
+    }
+
+    #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../image/fundo.jpg");
+    }
+
+    .car {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 25%
+    }
+
+    .car img {
+        height: 30px;
+        border-radius: 50%
+    }
+
+    .box {
+        position: fixed
+    }
+
+    .logo img {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        object-fit: cover;
+        width: 250px;
+        height: 250px;
+        top: 40%;
+    }
+
+    .principal {
+        display: flex;
+        top: 92%;
+        justify-content: space-around;
+        width: 100%;
+        position: fixed;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .principal .home {
+        padding-bottom: 2px;
+        transition: 1s;
+        position: absolute;
+        bottom: 40px;
+        font-size: 15px;
+        letter-spacing: 5px;
+        color: black;
+    }
+
+    .principal .menus {
+        padding-bottom: 8px;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: 2px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        box-shadow: none
+    }
+
+    main {
+        display: none
+    }
+
+    #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../image/fundo.jpg");
+    }
+
+    .car {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 20%
+    }
+
+    .car img {
+        height: 30px;
+        border-radius: 50%
+    }
+
+    .box {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+
+    .logo img {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        object-fit: scale-down;
+        top: 35%;
+        width: 250px;
+        height: 250px;
+    }
+
+    .titulo .home {
+        letter-spacing: 1px;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        top: 80%;
+        color: black;
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .home h2 {
+        padding-bottom: 2px;
+    }
+
+    .principal {
+        letter-spacing: 1px;
+        text-align: center;
+        display: flex;
+        top: 88%;
+        justify-content: space-around;
+        width: 100%;
+        position: fixed;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .principal .menus {
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000;
+        font-size: 15px;
+    }
+
+    .principal,
+    .principal2,
+    a {
+        padding-bottom: 5px;
+    }
+
+    .principal2 {
+        letter-spacing: 1px;
+        text-align: center;
+        display: flex;
+        top: 94%;
+        justify-content: space-around;
+        width: 100%;
+        position: fixed;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .principal2 .menus2 {
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000;
+        font-size: 15px;
+    }
+}

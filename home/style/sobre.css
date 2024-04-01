@@ -1,0 +1,644 @@
+@media screen and (min-width: 768px) {
+    html {
+        scroll-behavior: smooth
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none
+    }
+
+    .copy-cel {
+        display: none;
+    }
+
+    .box-cel {
+        display: none;
+    }
+
+    .principal2 {
+        display: none;
+    }
+
+    .teste3 {
+        display: none
+    }
+
+    .teste2cel {
+        display: none
+    }
+
+    #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../image/fundo.jpg");
+    }
+
+    .car {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 20%
+    }
+
+    .car img {
+        height: 30px;
+        border-radius: 50%
+    }
+
+    body {
+        background-image: url("../image/fundo.jpg");
+
+    }
+
+    .principal {
+        z-index: 1;
+        display: flex;
+        top: 8%;
+        justify-content: space-around;
+        width: 100%;
+        position: fixed;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .principal .home {
+        padding-bottom: 2px;
+        transition: 1s;
+        position: absolute;
+        bottom: 40px;
+        font-size: 15px;
+        letter-spacing: 5px;
+        color: black;
+    }
+
+    .home h2 {
+        padding-bottom: 2px;
+    }
+
+    .principal .menus {
+        padding-bottom: 5px;
+        color: black;
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+
+    .marca {
+        height: 100%;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        margin-bottom: 300px;
+        margin-top: 250px;
+    }
+
+    .marca .teste1 img {
+        width: 250px;
+        height: 250px;
+        object-fit: scale-down;
+    }
+
+    .marca .teste1 {
+        width: 40%;
+    }
+
+    .marca .teste2 {
+        width: 60%;
+        margin-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        border-radius: 0px 20px 0px 20px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .marca p {
+        text-align: left;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+        line-height: 35px;
+        letter-spacing: 2px;
+        margin-left: 30px;
+        padding-right: 20px;
+        color: rgba(0, 0, 0, 0.9);
+        font-weight: bold;
+    }
+
+    .curriculo-cel {
+        display: none
+    }
+
+    .curriculo {
+        background-color: #666;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .curriculo .teste1 {
+        width: 600px;
+        margin: 15px 45px 10px 20px;
+    }
+
+    .curriculo p {
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 18px;
+        letter-spacing: 2px;
+        width: 100%
+    }
+
+    .curriculo .teste2 .titulo {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        letter-spacing: 3px;
+        text-align: left;
+        width: 100%
+    }
+
+    .curriculo .teste1 img {
+        width: 100%;
+        object-fit: scale-down;
+    }
+
+    .curriculo .teste2 {
+        width: 100%;
+        height: 100%;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .box2 {
+        width: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: #000;
+    }
+
+    .box2 h2 {
+        font-size: 25px;
+        padding-bottom: 50px;
+        padding-top: 300px;
+        margin-left: 125px;
+        letter-spacing: 5px;
+    }
+
+    .box2 a {
+        letter-spacing: 2px;
+        color: #000;
+        font-weight: bold;
+        transition: 1s;
+        padding: 5px;
+    }
+
+    .email {
+        letter-spacing: 2px;
+        font-size: 16px;
+        padding-left: 125px;
+        height: 120px;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .email a:hover {
+        cursor: pointer
+    }
+
+    .email .emailp {
+        position: absolute;
+        margin-top: 4px;
+        left: 95px
+    }
+
+    .telefone {
+        letter-spacing: 2px;
+        font-size: 16px;
+        padding-left: 125px;
+        height: 120px;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .telefone .emailp {
+        position: absolute;
+        margin-top: 4px;
+        left: 95px
+    }
+
+    .instagram {
+        letter-spacing: 2px;
+        font-size: 16px;
+        padding-left: 125px;
+        height: 250px;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .instagram .emailp {
+        position: absolute;
+        margin-top: 4px;
+        left: 95px
+    }
+
+    .link0 {
+        position: fixed;
+        right: 23px;
+        bottom: 19%;
+        height: 25px;
+        width: 30px;
+        z-index: 1;
+        transition: 1s
+    }
+
+    .link0 img {
+        width: 100%;
+        height: 100%;
+        color: #000;
+        transition: 1s;
+        border-radius: 5px
+    }
+
+    .link0.visible {
+        visibility: visible
+    }
+
+    .link1 {
+        position: fixed;
+        right: 23px;
+        bottom: 11%;
+        height: 30px;
+        width: 30px;
+        z-index: 1
+    }
+
+    .link1 img {
+        width: 100%;
+        height: 100%;
+        color: #000;
+        transition: 1s;
+        border-radius: 9px
+    }
+
+    .link2 {
+        position: fixed;
+        right: 23px;
+        bottom: 3%;
+        height: 30px;
+        width: 30px;
+        z-index: 1
+    }
+
+    .link2 img {
+        width: 100%;
+        height: 100%;
+        color: #000;
+        transition: 1s;
+        border-radius: 14px
+    }
+
+    .copy {
+        text-align: center;
+        background-color: white;
+        padding: 3px;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 2px;
+        color: black;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .copy a {
+        color: black;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    html {
+        scroll-behavior: smooth
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none
+    }
+
+    body {
+        background-image: url("../image/fundo.jpg");
+    }
+
+    .teste {
+        display: none
+    }
+
+    .marcat {
+        display: none
+    }
+
+    .teste2 {
+        display: none
+    }
+
+    .copy {
+        display: none;
+    }
+
+    #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../image/fundo.jpg");
+    }
+
+    .car {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 25%
+    }
+
+    .car img {
+        height: 30px;
+        border-radius: 50%
+    }
+
+    .titulo .home {
+        letter-spacing: 1px;
+        z-index: 1;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        top: 2%;
+        color: black;
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .home h2 {
+        padding-bottom: 3px;
+    }
+
+    .principal {
+        letter-spacing: 1px;
+        text-align: center;
+        z-index: 1;
+        display: flex;
+        top: 10%;
+        justify-content: space-around;
+        width: 100%;
+        position: fixed;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .principal .menus {
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .principal2 {
+        letter-spacing: 1px;
+        z-index: 1;
+        display: flex;
+        text-align: center;
+        top: 16%;
+        justify-content: space-around;
+        width: 100%;
+        position: fixed;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .principal2 .menus2 {
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .marca {
+        height: 100%;
+        width: 100%;
+        text-align: center
+    }
+
+    .marca .teste1 {
+        padding-top: 200px;
+        padding-bottom: 70px;
+    }
+
+    .teste1 img {
+        width: 200px;
+        height: 200px;
+        object-fit: scale-down;
+    }
+
+    .teste2cel p {
+        background-color: rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        height: 100%;
+        text-align: left;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 80px;
+        line-height: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .curriculo-cel {
+        width: 100%;
+        height: 100%;
+        text-align: center
+    }
+
+    .curriculo-cel img {
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        margin-bottom: 80px;
+    }
+
+    .curriculo {
+        display: none
+    }
+
+    .teste3 {
+        color: #fff;
+        position: absolute;
+        width: 100%;
+        background-color: #666;
+    }
+
+    .textos p {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        line-height: 25px;
+        font-size: 15px
+    }
+
+    .textos h2 {
+        text-align: center;
+        letter-spacing: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+    }
+
+    .box2 {
+        width: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #000;
+    }
+
+    .box2 h2 {
+        font-size: 20px;
+        padding-bottom: 60px;
+        padding-top: 550px;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+
+    .box2 a {
+        color: #000;
+        transition: 1s;
+        padding: 5px;
+        letter-spacing: 2px;
+    }
+
+    .email {
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 16px;
+        height: 120px;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .email a:hover {
+        cursor: pointer
+    }
+
+    .email img {
+        position: absolute;
+        margin-top: 3px;
+        left: 5%
+    }
+
+    .telefone {
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 16px;
+        height: 120px;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .telefone img {
+        position: absolute;
+        margin-top: 3px;
+        left: 5%
+    }
+
+    .instagram {
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 16px;
+        height: 200px;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .instagram img {
+        position: absolute;
+        margin-top: 3px;
+        left: 5%
+    }
+
+    .box2 .centro {
+        text-align: left;
+        margin-left: 14%
+    }
+
+    footer .centro h3 {
+        font-size: 20px
+    }
+
+    .link0 {
+        position: fixed;
+        right: 10px;
+        bottom: 19%;
+        height: 25px;
+        width: 30px;
+        z-index: 1
+    }
+
+    .link0 img {
+        width: 100%;
+        height: 100%;
+        color: #000;
+        border-radius: 5px
+    }
+
+    .link0.visible {
+        visibility: visible
+    }
+
+    .link1 {
+        position: fixed;
+        right: 10px;
+        bottom: 11%;
+        height: 30px;
+        width: 30px;
+        z-index: 1
+    }
+
+    .link1 img {
+        width: 100%;
+        height: 100%;
+        color: #000
+    }
+
+    .link2 {
+        position: fixed;
+        right: 10px;
+        bottom: 3%;
+        height: 30px;
+        width: 30px;
+        z-index: 1
+    }
+
+    .link2 img {
+        width: 100%;
+        height: 100%;
+        color: #000
+    }
+
+    .copy-cel {
+        text-align: center;
+        background-color: white;
+        padding: 3px;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 2px;
+        color: black;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .copy-cel a {
+        color: black;
+    }
+}
